@@ -2,8 +2,6 @@ service: svg-graphql-service
 provider:
   name: aws
   runtime: nodejs12.x
-  region: eu-west-1
-
 functions:
   chart:
     handler: chart.handler
@@ -15,6 +13,6 @@ functions:
     description: Returns data to chart handler
     events:
       - http: "POST /data"
-
+      - http: "GET /data"
 plugins:
   - serverless-offline

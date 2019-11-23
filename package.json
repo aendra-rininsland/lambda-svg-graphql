@@ -1,12 +1,17 @@
 {
   "name": "serverless-svg-talk",
+  "description": "Code for my talk about using Serverless + GraphQL to generate SVG",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sls offline"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "serverless",
+    "svg",
+    "lambda",
+    "aws"
+  ],
+  "author": "Ændrew Rininsland <aendrew@aendrew.com>",
   "license": "ISC",
   "devDependencies": {
     "serverless": "^1.58.0",
@@ -19,5 +24,5 @@
     "graphql": "^14.5.8",
     "jsdom": "^15.2.1"
   },
-  "description": ""
+  "private": true
 }

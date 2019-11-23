@@ -26,7 +26,7 @@ const Query = gql`
 
 const queryResolvers = {
   RestApiOne: (obj, { startDate = new Date(), endDate = new Date() }) => {
-    return require("../data.json").filter(d => {
+    return require("./data.json").filter(d => {
       const datetime = new Date(d.datetime);
       return datetime >= new Date(startDate) && datetime <= new Date(endDate);
     });
