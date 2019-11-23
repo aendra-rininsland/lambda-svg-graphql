@@ -1,6 +1,6 @@
 # Serverless + GraphQL + SVG Talk code example
 
-## 2019 Ændrew Rininsland ([@aendrew][twitter])
+## 2019 Ændrew Rininsland ([@aendrew][twitter])
 
 This is all the code from my November 2019 talk at [Trending.JS][meetup].
 
